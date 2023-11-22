@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<manifest>
+  <control namespace="MFERDEV" constructor="ThrowValueCustomPage" version="0.0.1" display-name-key="ThrowValueCustomPage" description-key="ThrowValueCustomPage description" control-type="standard" >
+    <property name="data" display-name-key="Datos guardados en sessionStorage" description-key="Datos guardados en sessionStorage" of-type="Object" usage="input" required="true" />
+    <property name="sessionStorageKey" display-name-key="Id de la sessionStorage" description-key="Id de la sessionStorage" of-type="SingleLine.Text" usage="input" required="true" />
+    <resources>
+      <code path="index.ts" order="1"/>
+    </resources>
+  </control>
+</manifest>
