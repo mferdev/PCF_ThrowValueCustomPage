@@ -12,9 +12,8 @@ export class ThrowValueCustomPage implements ComponentFramework.StandardControl<
 	}
     
 	public updateView(context: ComponentFramework.Context<IInputs>): void {
-        debugger;
 		let props = this.context_.parameters.data.raw;
-		if (props.result == true) {
+		if (props == true) {
 			sessionStorage.setItem(this.context_.parameters.sessionStorageKey.raw!, JSON.stringify(props));
 		}
 	}
